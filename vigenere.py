@@ -3,7 +3,7 @@ from string import ascii_lowercase
 
 class Vigenere:
     """
-    Encrypts and decrypts text using the [Vigenère cypher](https://en.wikipedia.org/wiki/Vigenère_cipher).
+    Encrypts and decrypts text using the [Vigenère cipher](https://en.wikipedia.org/wiki/Vigenère_cipher).
 
     The alphabet is by default the lowercase Latin alphabet, but can be any
     list of (unique) characters or strings.
@@ -50,7 +50,7 @@ class Vigenere:
 
     def encrypt(self, text, key):
         """
-        Encrypts the message `text` using a Vigenère cypher with key `key`.
+        Encrypts the message `text` using a Vigenère cipher with key `key`.
 
         Both `text` and `key` must be either strings or lists of words (and both
         must be the same type). The symbols (characters or words) in `text` and `key`
@@ -62,7 +62,7 @@ class Vigenere:
 
     def decrypt(self, text, key):
         """
-        Decrypts the message `text` using a Vigenère cypher with key `key`.
+        Decrypts the message `text` using a Vigenère cipher with key `key`.
 
         Both `text` and `key` must be either strings or lists of words (and both
         must be the same type). The symbols (characters or words) in `text` and `key`
