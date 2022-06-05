@@ -10,7 +10,7 @@ export default defineConfig({
     viteStaticCopy({
       targets: [
         {
-          src: 'lib/vigenere.js',
+          src: 'src/lib/vigenere.js',
           dest: ''
         }
       ]
