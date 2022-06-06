@@ -34,32 +34,6 @@
         margin: auto;
     }
 
-    @media (max-width: 320px) {
-        h1 {
-            font-size: 1.5em;
-        }
-
-        :global(h2) {
-            font-size: 1.2em;
-        }
-
-        :global(input[type="text"], textarea, pre) {
-            max-width: 100%;
-        }
-    }
-
-    @media (min-width: 970px) {
-        h1, main {
-            max-width: 900px;
-            padding-left: 8rem;
-            padding-right: 8rem;
-        }
-
-        :global(input[type="text"], textarea, pre) {
-            max-width: 50%;
-        }
-    }
-
     :global(html), :global(body) {
         width: 100%;
         height: 100%;
@@ -100,7 +74,6 @@
 
     :global(input[type="text"]) {
         height: 2rem;
-        vertical-align: middle;
     }
 
     :global(input[type="text"]:not(:focus):not(:placeholder-shown):invalid) {
@@ -124,6 +97,32 @@
 		padding: 0.8rem;
         overflow: scroll;
         white-space: nowrap;
+    }
+
+    @media (max-width: 320px) {
+        h1 {
+            font-size: 1.5em;
+        }
+
+        :global(h2) {
+            font-size: 1.2em;
+        }
+
+        :global(input[type="text"], textarea, pre) {
+            max-width: 100%;
+        }
+    }
+
+    @media (min-width: 970px) {
+        h1, main {
+            max-width: 900px;
+            padding-left: 8rem;
+            padding-right: 8rem;
+        }
+
+        :global(input[type="text"], textarea, pre) {
+            max-width: 70%;
+        }
     }
 </style>
 

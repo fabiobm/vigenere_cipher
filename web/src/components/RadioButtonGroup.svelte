@@ -6,6 +6,12 @@
 	label {
 		padding-left: 0.4rem;
 	}
+
+	div {
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+	}
 </style>
 
 {#each items as {value, label }}
