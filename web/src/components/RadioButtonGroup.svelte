@@ -10,7 +10,7 @@
 	div {
 		display: flex;
 		align-items: center;
-		justify-content: flex-end;
+		justify-content: flex-start;
 	}
 </style>
 
