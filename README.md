@@ -23,7 +23,9 @@ The cipher itself is implemented in pure JS in the
 function can be imported and used. The parameters are documented in the source
 code.
 
-There's also a web app (available [here]()) with an interface for applying the
-cipher, implemented in Svelte. To run this app, first install the dependencies
-with `npm i` then use the dev server with `npm run dev`, or use `npm run build`
-to generate the bundle or `npm run preview` to better test it.
+There's also a web app
+(available [here](https://fabiobm.github.io/vigenere_cipher/)) with an
+interface for applying the cipher, implemented in Svelte. To run this app,
+first install the dependencies with `npm i` then use the dev server with
+`npm run dev`, or use `npm run build` to generate the bundle or
+`npm run preview` to better test it.
